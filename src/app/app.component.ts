@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'todo-app';
+  title = 'todo-app'
+  todoArray = [] 
+  addTodo = (value) => this.todoArray.push(value)
 }
+
